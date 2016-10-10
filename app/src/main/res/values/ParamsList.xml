@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="params_array">
+        <item>{\"provider\":\"twitter\"}</item> <!-- addConnection -->
+		<item>{\"latitude\":42.87818,\"longitude\":-78.83985,\"placeID\":\"facebook:205090946186458\",\"comment\":\"text comment Checkin\"}</item> <!-- socialize.checkin -->
+		<item>socialize.deleteAccount</item>
+		<item>socialize.delUserSettings</item>
+		<item>socialize.exportUsers</item>
+		<item>socialize.facebookGraphOperation</item>
+		<item>socialize.getAlbums</item>
+		<item>socialize.getContacts</item>
+		<item>{}</item> <!-- socialize.getFeed -->
+		<item>{\"detailLevel\":\"extended\"}</item> <!-- socialize.getFriendsInfo -->
+		<item>socialize.getPhotos</item>
+		<item>socialize.getPlaces</item>
+		<item>socialize.getRawData</item>
+		<item>socialize.getReactionsCount</item>
+		<item>socialize.getSessionInfo</item>
+		<item>socialize.getTopShares</item>
+		<item>{\"includeAllIdentities\": true}</item>
+		<item>socialize.getUserSettings</item>
+		<item>socialize.incrementReactionsCount</item>
+		<item>{\"provider\":\"testnetwork3\",\"googlePlusExtraPermissions\":\"https://www.googleapis.com/auth/adsense\",\"regSource\":\"login Method\",\"enabledProviders\":\"*,testnetwork3,testnetwork4\""}</item> <!-- socialize.login -->
+		<item>{}</item> <!-- socialize.logout -->
+		<item>{\"siteUID\":\"id1\"}</item> <!-- socialize.notifyLogin -->
+		<item>socialize.notifyRegistration</item>
+		<item>{\"userAction\":{\"title\":\"This is a title Шапка כותרת\",\"linkBack\":\"http://voffka.com\",\"userMessage\":\"This is a user message יוזר מסר Сообщение пользователя\",\"description\":\"This is a description תיואר описание\"}}</item> <!-- socialize.publishUserAction -->
+		<item>{\"provider\":\"twitter\"}</item> <!-- socialize.removeConnection -->
+		<item>socialize.sendNotification</item>
+		<item>{\"status\":\"android юникод\"}</item> <!-- socialize.setStatus -->
+		<item>socialize.setUID</item>
+		<item>socialize.setUserInfo</item>
+		<item>socialize.setUserSettings</item>
+		<item>{\"url\":\"http://nike.com\"}	</item> <!--  socialize.shortenURL -->
+		<item>{}</item> 								<!-- socialize.addConnectionUI -->
+		<item>{}</item> 								<!-- socialize.feedUI -->
+		<item>{}</item> 							<!-- socialize.friendSelectorUI -->
+		<item>{}</item> 			   				<!--  socialize.loginUI -->
+		<item>{\"userAction\":{ \"title\": \"This is a titles\", \"linkBack\": \"http://www.etoday.ru/\", \"userMessage\": \"This is a user message \", \"description\": \"This is a description\"},\"shareButtons\":\"facebook-like,twitter-tweet,google-plusone\"}</item> <!-- socialize.shareBarUI -->
+		<item>{\"userAction\":{ \"title\": \"This is a titles\", \"linkBack\": \"http://www.etoday.ru/\", \"userMessage\": \"This is a user message \", \"description\": \"This is a description\"}}</item> 				<!--  socialize.shareUI -->
+		<item>accounts.deleteAccount</item>
+		<item>accounts.deleteScreenSet</item>
+		<item>accounts.finalizeRegistration</item>
+		<item>{}</item> 							<!-- accounts.getAccountInfo -->
+		<item>accounts.getPolicies</item>
+		<item>accounts.getSchema</item>
+		<item>accounts.getScreenSets</item>
+		<item>accounts.importProfilePhoto</item>
+		<item>{}</item> <!-- accounts.initRegistration -->
+		<item>accounts.isAvailableLoginID</item>
+		<item>accounts.linkAccounts</item>
+		<item>{\"loginID\":\"aaa@gmail.com\",\"password\":\"Q123456w\",\"loginMode\":\"reAuth\"}</item> <!--  accounts.login -->
+		<item>{}</item> <!--  accounts.logout -->
+		<item>accounts.notifyLogin</item>
+		<item>accounts.publishProfilePhoto</item>
+		<item>{\"finalizeRegistration\":true,\"password\":\"Q123456w\"" }</item> <!-- accounts.register -->
+		<item>accounts.resendVerificationCode</item>
+		<item>accounts.resetPassword</item>
+		<item>accounts.search</item>
+		<item>accounts.setAccountInfo</item>
+		<item>accounts.setPolicies</item>
+		<item>accounts.setSchema</item>
+		<item>{\"accounts.setscreenSet\":\"mob\"}</item> 		<!-- accounts.setscreenSet -->
+		<item>{\"mode\":\"edit\"}</item> 									<!-- accounts.tfa.initTFA -->
+		<item>{\"screenSet\":\"Android-RegistrationLogin\",\"startScreen\":\"gigya-register-screen\"}</item> 		<!-- accounts.screenSet -->
+		<item>comments.getComments</item>
+		<item>comments.postComment</item>
+		<item>{\"categoryID\":\"ios\",\"version\":\"2\", \"lang\":\"he\"}</item> <!--   comments.commentsUI -->
+		<item>{ \"oid\" : \"objid1\" , \"type\" : \"type1\"}</item> <!--  ds.delete -->
+		<item>{\"oid\" : \"objid1\" , \"type\" : \"type1\"}</item> <!--  ds.get -->
+		<item>ds.search</item>
+		<item>{\"oid\" : \"objid1\" , \"type\" : \"type1\", \"data\" : {\"name1\":\"value1\"}}</item> <!-- ds.store -->
+		<item>{\"categoryID\":\"274467960\",\"width\":300,\"height\":450}</item> <!--  chat.showChatUI-->
+		<item>{}</item> <!--  gm.achievementsUI -->
+		<item>{}</item> <!--  -->
+		<item>{}</item> <!--  -->
+		<item>{}</item> <!--  -->
+		<item>{}</item> <!-- gm.userStatusUI -->
+		<item>{ \"permissions\" : \"publish_actions,create_event,manage_pages\"}</item> <!-- requestNewFacebookPublishPermissions -->
+		<item>{ \"permissions\" : \"email,user_actions.news,user_actions.fitness\"}</item> <!-- requestNewFacebooReadPermissions -->
+		<item>{}</item> <!-- FacebookDialog -->
+		<item>{}</item> <!--  webView -->
+		<item>{}</item><!--  fragment -->
+    </string-array>
+</resources>
