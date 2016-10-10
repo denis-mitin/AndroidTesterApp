@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
-        android:text="Tester for SDK 3.3.0"
+        android:text="Tester for SDK 3.3.3"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
