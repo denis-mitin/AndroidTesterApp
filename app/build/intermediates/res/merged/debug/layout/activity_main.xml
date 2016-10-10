@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tester for SDK 3.3.3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/LoginUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:onClick="onShowLoginUIClick"
+        android:text="LoginUI"/>
+
+    <Button
+        android:id="@+id/callMethod"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/methodName"
+        android:layout_alignBottom="@+id/methodName"
+        android:layout_alignLeft="@+id/LoginUI"
+        android:onClick="onCallMethodClick"
+        android:text="Call" />
+
+    <EditText
+        android:id="@+id/methodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginUI"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/callMethod"
+        android:text="socialize.getUserInfo" />
+
+   <EditText
+       android:id="@+id/paramsJson"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/output"
+       android:layout_below="@+id/methodSel"
+       android:ems="10"
+       android:inputType="textMultiLine"
+       android:lines="4"
+       android:text="{&quot;includeAllIdentities&quot;: true}" >
+
+       <requestFocus />
+   </EditText>
+
+   <Spinner
+       android:id="@+id/methodSel"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/methodName"
+       android:layout_below="@+id/callMethod" />
+
+   <Button
+       android:id="@+id/ConnectUI"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/LoginUI"
+       android:layout_below="@+id/textView1"
+       android:layout_toRightOf="@+id/LoginUI"
+       android:onClick="onShowConnectUIClick"
+       android:text="ConnectUI" />
+
+   <Button
+       android:id="@+id/Auto"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/ConnectUI"
+       android:layout_alignRight="@+id/methodName"
+       android:layout_alignTop="@+id/ConnectUI"
+       android:layout_marginLeft="15dp"
+       android:layout_toRightOf="@+id/ConnectUI"
+       android:onClick="onStartAutoClick"
+       android:text="Auto" />
+
+   <EditText
+       android:id="@+id/output"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/callMethod"
+       android:layout_alignRight="@+id/methodSel"
+       android:layout_below="@+id/paramsJson"
+       android:ems="10"
+       android:inputType="textMultiLine"
+       android:lines="12"
+       android:minLines="12" />
+
+
+</RelativeLayout>
